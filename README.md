@@ -26,7 +26,7 @@ cd task
 
 Install install django, django restframework, drf-spectacular.
 
-Database Setup
+## Database Setup
 Apply migrations:
 
 python manage.py migrate
@@ -34,7 +34,7 @@ Create a superuser (optional):
 
 python manage.py createsuperuser
 
-Run the Project
+## Run the Project
 Run the development server:
 ```
 python manage.py runserver
