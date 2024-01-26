@@ -22,18 +22,20 @@
    git clone https://github.com/your-username/your-project.git
 
 Navigate to the project directory:
+```
 cd task
-
-Install install django, django restframework, drf-spectacular.
+```
+Install django, django restframework, drf-spectacular.
 
 ## Database Setup
 Apply migrations:
-
+```
 python manage.py migrate
+```
 Create a superuser (optional):
-
+```
 python manage.py createsuperuser
-
+```
 ## Run the Project
 Run the development server:
 ```
